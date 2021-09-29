@@ -30,18 +30,12 @@ java --version
 Para instalar Ubuntu Java Open JDK ("la que utilizaremos en 1º").
  - OpenJDK:
 
-   - 11
+   - 11 (ya lo instalamos en el paso de instalar Java)
 
 
    ```
    sudo apt install openjdk-11-jdk
    ```
-   
-   
-   
-   <img src="https://github.com/nuhazet6/jdk/blob/1ab1ef7db30f028d7c96bc6960c9a6b5cc1039dd/Im%C3%A1genes/imagen4.png" alt="Imagen 4">
-   
-   
    
     - 9 (Ya no está soportado)
     
@@ -49,7 +43,7 @@ Para instalar Ubuntu Java Open JDK ("la que utilizaremos en 1º").
    sudo apt install openjdk-9-jdk
    ```
    
-   <img src="Imágenes/Imagen5.png" alt="Imagen 5">
+   <img src="https://github.com/nuhazet6/jdk/blob/1ab1ef7db30f028d7c96bc6960c9a6b5cc1039dd/Im%C3%A1genes/imagen4.png" alt="Imagen 4">
    
     - 8
     
@@ -59,7 +53,7 @@ Para instalar Ubuntu Java Open JDK ("la que utilizaremos en 1º").
    
    
    
-   <img src="Imágenes/imagen6.png" alt="Imagen 6">
+   <img src="Imágenes/Imagen5.png" alt="Imagen 5">
    
    
    
@@ -69,7 +63,7 @@ Para instalar Ubuntu Java Open JDK ("la que utilizaremos en 1º").
 java --version
 ```
 
-<img src="Imágenes/Imagen7.png" alt="Imagen 7">
+<img src="Imágenes/imagen6.png" alt="Imagen 6">
 
 En caso que no se ejecuta la versión 8 se debe configurar las variables de entorno.
 
@@ -81,7 +75,7 @@ En caso que no se ejecuta la versión 8 se debe configurar las variables de ento
 ls /usr/lib/jvm
 ```
 
-<img src="Imágenes/Imagen8.png" alt="Imagen 8">
+<img src="Imágenes/Imagen7.png" alt="Imagen 7">
 
 ### Actualización de las variables de entorno
 
@@ -91,7 +85,7 @@ ls /usr/lib/jvm
 sudo update-alternatives --config java
 ```
 
-<img src="Imágenes/Imagen9.png" alt="Imagen 9">
+<img src="Imágenes/Imagen8.png" alt="Imagen 8">
 
  y selecciona la version _8_, cuyo valor es __java-1.8.0-openjdk-amd64__.
 
@@ -101,4 +95,4 @@ Comprobamos que tenemos la versión 8 con java -version (java --version no funci
 java -version
 ```
 
-<img src="Imágenes/Imagen1.png" alt="Imagen 1">
+<img src="Imágenes/Imagen9.png" alt="Imagen 9">
