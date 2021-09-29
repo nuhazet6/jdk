@@ -39,7 +39,7 @@ Para instalar Ubuntu Java Open JDK ("la que utilizaremos en 1º").
    
    
    
-   <img src="Imágenes/Imagen4.png" alt="Imagen 4">
+   <img src="https://github.com/nuhazet6/jdk/blob/1ab1ef7db30f028d7c96bc6960c9a6b5cc1039dd/Im%C3%A1genes/imagen4.png" alt="Imagen 4">
    
    
    
