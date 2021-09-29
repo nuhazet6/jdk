@@ -5,17 +5,17 @@ Primero hay que actualizar el sistema:
 ```console
 sudo apt-get update
 ```
-
+<img src="Imágenes/Imagen1.png" alt="Imagen 1">
 Segundo se instala Java:
 ```console
 sudo apt-get install default-jdk
 ```
-
+<img src="Imágenes/Imagen2.png" alt="Imagen 2">
 Comprobamos que lo tenemos instalado con lo siguiente:
 ```console
 java --version
 ```
-
+<img src="Imágenes/Imagen3.png" alt="Imagen 3">
 ## 2.Instalar los JDK
 
 Para instalar Ubuntu Java Open JDK ("la que utilizaremos en 1º").
@@ -24,19 +24,23 @@ Para instalar Ubuntu Java Open JDK ("la que utilizaremos en 1º").
    ```
    sudo apt install openjdk-11-jdk
    ```
-    - 9
+   <img src="Imágenes/Imagen4.png" alt="Imagen 4">
+    - 9 (Ya no está soportado)
    ```
    sudo apt install openjdk-9-jdk
    ```
+   <img src="Imágenes/Imagen5.png" alt="Imagen 5">
     - 8
    ```
    sudo apt install openjdk-8-jdk
    ```
+   <img src="Imágenes/Imagen6.png" alt="Imagen 6">
  Mostraremos la 8 Para ello verificaremos la versión de java que se esta ejecutando con la sentencia:
 
 ```console 
 java --version
 ```
+<img src="Imágenes/Imagen7.png" alt="Imagen 7">
 En caso que no se ejecuta la versión 8 se debe configurar las variables de entorno.
 
 ## Configuración de las variables de entorno
@@ -46,7 +50,7 @@ En caso que no se ejecuta la versión 8 se debe configurar las variables de ento
 ```console 
 ls /usr/lib/jvm
 ```
-
+<img src="Imágenes/Imagen8.png" alt="Imagen 8">
 ### Actualización de las variables de entorno
 
  Edita y modifica el fichero profile, con los comandos:
@@ -54,32 +58,11 @@ ls /usr/lib/jvm
 ```console 
 sudo update-alternatives --config java
 ```
+<img src="Imágenes/Imagen9.png" alt="Imagen 9">
  y selecciona la version _8_, cuyo valor es __java-1.8.0-openjdk-amd64__.
 
- Otra opción es : añadir el siguiente código:
-
+Comprobamos que tenemos la versión 8 con java -version (java --version no funciona en esta versión del jdk):
 ```console
-# Java version
-JAVA_HOME=/usr/lib/jvm/_____openJdk_____
-PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
-export JAVA_HOME
-export JRE_HOME
-export PATH
+java -version
 ```
-
- en
-
-```console
-/etc/profile.d/java.sh
-```
-Haga que el script sea ejecutable con chmod:
-
-```console
-sudo chmod +x /etc/profile.d/java.sh
-```
-
-Finalmente, cargue las variables de entorno usando el comando de source
-
-```console
-source /etc/profile.d/java.sh
-```
+<img src="Imágenes/Imagen1.png" alt="Imagen 1">
