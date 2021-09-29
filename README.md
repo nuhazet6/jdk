@@ -2,13 +2,19 @@
 
 ## 1.Instalar Java:
 Primero hay que actualizar el sistema:
-```sudo apt-get update```
+```console
+sudo apt-get update
+```
 
 Segundo se instala Java:
-```sudo apt-get install default-jdk```
+```console
+sudo apt-get install default-jdk
+```
 
 Comprobamos que lo tenemos instalado con lo siguiente:
-```java --version```
+```console
+java --version
+```
 
 ## 2.Instalar los JDK
 
@@ -28,28 +34,26 @@ Para instalar Ubuntu Java Open JDK ("la que utilizaremos en 1º").
    ```
  Mostraremos la 8 Para ello verificaremos la versión de java que se esta ejecutando con la sentencia:
 
-```console
-  java --version
+```console 
+java --version
 ```
 En caso que no se ejecuta la versión 8 se debe configurar las variables de entorno.
 
 ## Configuración de las variables de entorno
-
- El siguiente paso consiste en establecer  las variables de entorno. Es necesario porque cuando se usa Java, Linux necesita saber dónde está ubicado el programa para ejecutarlo y qué versión de Java usar de forma predeterminada. Para modificar esto, usaremos el editor de texto nano. Primero, abra el archivo en Nano.
-
 ### Listar la versiones de OpenJDK instaladas
-
  Ejecuta el siguiente comando para verificar que se han descargado las diferentes versiones de OpenJDK.
 
-```console
- ls /usr/lib/jvm
+```console 
+ls /usr/lib/jvm
 ```
 
 ### Actualización de las variables de entorno
 
  Edita y modifica el fichero profile, con los comandos:
 
-```console sudo update-alternatives --config java```
+```console 
+sudo update-alternatives --config java
+```
  y selecciona la version _8_, cuyo valor es __java-1.8.0-openjdk-amd64__.
 
  Otra opción es : añadir el siguiente código:
