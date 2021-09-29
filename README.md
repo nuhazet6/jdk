@@ -3,8 +3,10 @@
 ## 1.Instalar Java:
 Primero hay que actualizar el sistema:
 ```sudo apt-get update```
+
 Segundo se instala Java:
 ```sudo apt-get install default-jdk```
+
 Comprobamos que lo tenemos instalado con lo siguiente:
 ```java --version```
 
