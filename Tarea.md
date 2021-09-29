@@ -2,20 +2,29 @@
 
 ## 1.Instalar Java:
 Primero hay que actualizar el sistema:
+
 ```console
 sudo apt-get update
 ```
+
 <img src="Imágenes/Imagen1.png" alt="Imagen 1">
+
 Segundo se instala Java:
+
 ```console
 sudo apt-get install default-jdk
 ```
+
 <img src="Imágenes/Imagen2.png" alt="Imagen 2">
+
 Comprobamos que lo tenemos instalado con lo siguiente:
+
 ```console
 java --version
 ```
+
 <img src="Imágenes/Imagen3.png" alt="Imagen 3">
+
 ## 2.Instalar los JDK
 
 Para instalar Ubuntu Java Open JDK ("la que utilizaremos en 1º").
