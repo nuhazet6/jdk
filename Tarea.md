@@ -29,14 +29,18 @@ java --version
 
 Para instalar Ubuntu Java Open JDK ("la que utilizaremos en 1º").
  - OpenJDK:
+
    - 11
-   - 
+
+
    ```
    sudo apt install openjdk-11-jdk
    ```
    
    
+   
    <img src="Imágenes/Imagen4.png" alt="Imagen 4">
+   
    
    
     - 9 (Ya no está soportado)
@@ -54,7 +58,9 @@ Para instalar Ubuntu Java Open JDK ("la que utilizaremos en 1º").
    ```
    
    
+   
    <img src="Imágenes/Imagen6.png" alt="Imagen 6">
+   
    
    
  Mostraremos la 8 Para ello verificaremos la versión de java que se esta ejecutando con la sentencia:
