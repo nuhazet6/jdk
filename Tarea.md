@@ -67,7 +67,8 @@ java --version
 
 En caso que no se ejecuta la versión 8 se debe configurar las variables de entorno.
 
-## Configuración de las variables de entorno
+## 3.Configuración de las variables de entorno
+
 ### Listar la versiones de OpenJDK instaladas
  Ejecuta el siguiente comando para verificar que se han descargado las diferentes versiones de OpenJDK.
 
